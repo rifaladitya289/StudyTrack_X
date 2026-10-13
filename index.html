@@ -786,6 +786,45 @@ body.light-mode .stx-home-stat,body.light-mode .stx-home-quick{background:#fff!i
 body.light-mode{background:#f5f7fa!important;color:#20242a!important}body.light-mode .stx-saving-page{background:#f5f7fa!important}body.light-mode .stx-saving-balance{background:linear-gradient(145deg,#eaf3ff,#f8fbff)!important}body.light-mode .stx-saving-card,body.light-mode .stx-saving-target-card{background:#fff!important;border-color:#e2e8f0!important}body.light-mode .stx-wallet-tabs{background:#fff!important;border-color:#e2e8f0!important}body.light-mode .bottom-nav{background:rgba(255,255,255,.96)!important;border-color:#e2e8f0!important}body.light-mode .bottom-nav .nav-item#navMaps{border-color:#fff!important}
 @media(max-width:360px){.stx-saving-top-row{grid-template-columns:1fr 1fr!important;gap:6px!important}.stx-saving-balance{padding:10px!important;min-height:116px}.stx-saving-target-card{padding:9px!important;min-height:116px}.stx-saving-balance-value{font-size:19px!important}}
 
+
+
+/* ===== STX LOCAL DATA CENTER ===== */
+.stx-data-center{border:1px solid rgba(59,130,246,.28);background:linear-gradient(145deg,rgba(24,42,66,.72),rgba(17,23,32,.92));border-radius:15px;padding:13px;margin:4px 0 14px}
+.stx-data-center-head{display:flex;align-items:center;gap:9px}.stx-data-center-head>span{width:36px;height:36px;display:grid;place-items:center;border-radius:11px;background:rgba(59,130,246,.16);font-size:19px}
+.stx-data-center-head b{display:block;font-size:12px}.stx-data-center-head small{display:block;color:#93a4b8;font-size:10px;margin-top:2px}
+.stx-data-center p{font-size:10px;line-height:1.5;color:#aab6c5;margin:10px 0}
+.stx-data-btn{width:100%;border:0;border-radius:10px;background:#2563eb;color:#fff;font-size:11px;font-weight:800;padding:11px;margin-top:6px;cursor:pointer}
+.stx-data-btn.secondary{background:#253246;color:#dbeafe;border:1px solid #35445a}
+.stx-storage-status{font-size:9px;line-height:1.45;color:#93a4b8;margin-top:9px;overflow-wrap:anywhere}
+body.light-mode .stx-data-center{background:#f0f6ff;border-color:#c6dcff}
+body.light-mode .stx-data-center-head small,body.light-mode .stx-data-center p,body.light-mode .stx-storage-status{color:#526277}
+
+
+
+/* ===== STX MULTI-JENJANG ONBOARDING ===== */
+.stx-level-page{background:radial-gradient(ellipse at top,#122b4b 0,#0b0d10 58%)!important;padding:22px 16px 34px!important;justify-content:center!important;align-items:center!important}
+.stx-level-shell{width:100%;max-width:520px;margin:auto}
+.stx-level-brand{display:flex;align-items:center;gap:10px;margin-bottom:25px}
+.stx-level-mark{width:43px;height:43px;display:grid;place-items:center;border-radius:14px;background:linear-gradient(135deg,#3b82f6,#1d4ed8);font-size:27px;font-weight:900;box-shadow:0 8px 24px #2563eb44}
+.stx-level-brand-name{font-size:17px;font-weight:900;letter-spacing:.2px}.stx-level-brand-name span{display:block;font-size:10px;color:#94a3b8;font-weight:500;letter-spacing:.5px;margin-top:2px}
+.stx-level-welcome{font-size:9px;font-weight:900;letter-spacing:2px;color:#60a5fa;margin-bottom:9px}
+.stx-level-shell h1{font-size:25px;line-height:1.2;letter-spacing:-.6px;margin-bottom:8px}
+.stx-level-desc{font-size:12px;line-height:1.55;color:#aab6c6;margin-bottom:19px;max-width:430px}
+.stx-level-options{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin-bottom:16px}
+.stx-level-option{min-width:0;border:1px solid #29384b;background:#111a27;color:#f8fafc;border-radius:15px;padding:13px 7px 12px;display:flex;flex-direction:column;align-items:center;gap:6px;cursor:pointer;text-align:center;transition:.18s}
+.stx-level-option.selected{border-color:#60a5fa;background:linear-gradient(145deg,#183a63,#132237);box-shadow:0 0 0 1px #3b82f655}
+.stx-level-icon{width:38px;height:38px;display:grid;place-items:center;border-radius:12px;background:#1d2e44;font-size:20px}
+.stx-level-option b{font-size:12px}.stx-level-option small{font-size:9px;line-height:1.3;color:#a9b8cb;min-height:23px}.stx-level-option em{font-style:normal;font-size:9px;font-weight:800;color:#93c5fd}
+.stx-level-form{background:#111720;border:1px solid #253142;border-radius:17px;padding:15px}
+.stx-level-form label{display:block;font-size:11px;font-weight:800;color:#cbd5e1;margin:4px 0 5px}.stx-level-form label span{font-weight:500;color:#8492a6}
+.stx-level-form input,.stx-level-form select{background:#0b1018!important;border:1px solid #303b4b!important;color:#f8fafc!important;border-radius:10px!important;padding:11px!important;margin:0 0 11px!important;font-size:12px!important}
+.stx-level-form .main-btn{margin-top:3px}.stx-level-form .main-btn:disabled{opacity:.4;cursor:not-allowed}
+.stx-level-footnote{font-size:9px;color:#8190a4;line-height:1.5;text-align:center;margin-top:11px}
+body.stx-level-sd .stx-level-mark{background:linear-gradient(135deg,#34d399,#059669)}
+body.stx-level-smp .stx-level-mark{background:linear-gradient(135deg,#60a5fa,#2563eb)}
+body.stx-level-sd [data-stx-smk-only],body.stx-level-smp [data-stx-smk-only]{display:none!important}
+@media(max-width:360px){.stx-level-page{padding:15px 10px 25px!important}.stx-level-option{padding:10px 4px}.stx-level-shell h1{font-size:22px}.stx-level-options{gap:5px}}
+
 </style>
 <style>
 /* ===== PROFIL BARU ===== */
@@ -1030,6 +1069,100 @@ body.light-mode .mt-tab.active small{background:rgba(255,255,255,.25)}
 .tg-ic:active{transform:scale(.94)}
 body.light-mode .tg-ic{background:#fff;border-color:#e4e8ed}
 </style>
+<style>
+/* ===== foto catatan ===== */
+.ph-hint{font-size:11.5px;color:var(--stx-muted);line-height:1.5;margin:2px 0 10px}
+.ph-hint b{color:#90caf9}
+.ph-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-bottom:10px}
+.ph-grid:empty{display:none}
+.ph-item{position:relative;aspect-ratio:1;border-radius:12px;overflow:hidden;border:1px solid var(--stx-line);background:#10192b}
+.ph-item img{width:100%;height:100%;object-fit:cover;display:block}
+.ph-item button{position:absolute;top:4px;right:4px;width:24px;height:24px;border-radius:50%;border:0;background:rgba(0,0,0,.65);color:#fff;font-size:12px;line-height:1;cursor:pointer;padding:0}
+.ph-add{width:100%;border:1.5px dashed rgba(59,130,246,.55);background:rgba(59,130,246,.08);color:#90caf9;border-radius:14px;padding:13px;font-size:13px;font-weight:700;cursor:pointer}
+.ph-add:disabled{opacity:.5;cursor:not-allowed}
+.mt-photos{display:grid;grid-template-columns:repeat(4,1fr);gap:6px;margin-top:10px}
+.mt-photos img{width:100%;aspect-ratio:1;object-fit:cover;border-radius:10px;background:#10192b;cursor:pointer;border:1px solid var(--stx-line)}
+#photoViewer{position:fixed;inset:0;z-index:13000;background:rgba(0,0,0,.96);display:none;flex-direction:column}
+#photoViewer.open{display:flex}
+.pv-top{display:flex;justify-content:space-between;align-items:center;padding:calc(12px + env(safe-area-inset-top)) 16px 10px;color:#fff;font-size:13px;font-weight:700}
+.pv-top button{width:38px;height:38px;border-radius:50%;border:0;background:rgba(255,255,255,.14);color:#fff;font-size:16px;cursor:pointer}
+#pvStage{flex:1;min-height:0;display:flex;align-items:center;justify-content:center;overflow:hidden;touch-action:none}
+#pvImg{max-width:100%;max-height:100%;object-fit:contain;user-select:none;-webkit-user-drag:none;transition:transform .08s ease-out}
+.pv-nav{position:absolute;top:50%;margin-top:-22px;width:44px;height:44px;border-radius:50%;border:0;background:rgba(255,255,255,.14);color:#fff;font-size:26px;display:none;align-items:center;justify-content:center;cursor:pointer;padding:0 0 3px}
+.pv-prev{left:8px}.pv-next{right:8px}
+.pv-hint{text-align:center;color:rgba(255,255,255,.55);font-size:11px;padding:8px 0 calc(14px + env(safe-area-inset-bottom))}
+body.light-mode .ph-item,body.light-mode .mt-photos img{background:#eef1f5;border-color:#e4e8ed}
+</style>
+<style>
+/* ===== S.WALLET v2 ===== */
+.app-header h2 small{display:block;font-size:10px;font-weight:500;opacity:.6;margin-top:1px;letter-spacing:.3px}
+.sw-hero{border-radius:24px;padding:18px;margin-bottom:12px;color:#fff;background:radial-gradient(circle at 90% 0%,rgba(255,255,255,.22),transparent 55%),linear-gradient(135deg,#1250cc,#2b8dff);position:relative;overflow:hidden}
+.sw-hero-top{display:flex;justify-content:space-between;align-items:center;font-size:12px;font-weight:700;opacity:.95}
+.sw-link{background:none;border:0;color:inherit;font-size:12px;font-weight:700;cursor:pointer;padding:4px 0}
+.sw-hero .sw-link{background:rgba(255,255,255,.18);border-radius:99px;padding:6px 12px;font-size:11px}
+.sw-balance{font-size:36px;font-weight:800;letter-spacing:-1px;margin:8px 0 4px;line-height:1.1;overflow-wrap:anywhere}
+.sw-hero-mini{font-size:11px;opacity:.92}
+.sw-target{margin-top:14px;background:rgba(255,255,255,.14);border-radius:16px;padding:12px}
+.sw-target-text{font-size:12px;font-weight:700;line-height:1.4}
+.sw-bar{height:8px;border-radius:99px;background:rgba(255,255,255,.25);overflow:hidden;margin:9px 0 6px}
+.sw-bar-fill{height:100%;width:0;border-radius:99px;background:#fff;transition:width .5s}
+.sw-target-pct{font-size:11px;opacity:.9}
+.sw-stats2{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:10px}
+.sw-stat2{background:var(--stx-surface);border:1px solid var(--stx-line);border-radius:18px;padding:14px}
+.sw-stat2 small{display:block;font-size:11px;color:var(--stx-muted);margin:10px 0 3px}
+.sw-stat2 b{font-size:17px;font-weight:800}
+.sw-ico{width:38px;height:38px;border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:19px}
+.sw-ico-g{background:rgba(34,197,94,.16)}.sw-ico-r{background:rgba(239,68,68,.16)}
+.sw-actions{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:14px}
+.sw-act{border:1px solid var(--stx-line);background:var(--stx-surface);color:inherit;border-radius:18px;padding:15px 8px;font-size:14px;font-weight:800;cursor:pointer;display:flex;flex-direction:column;align-items:center;gap:6px}
+.sw-act span{font-size:20px;line-height:1}
+.sw-act-primary{background:linear-gradient(135deg,#2b7bff,#1456d6);border-color:transparent;color:#fff;box-shadow:0 8px 20px rgba(29,107,255,.3)}
+.sw-act:active{transform:scale(.98)}
+.sw-block{background:var(--stx-surface);border:1px solid var(--stx-line);border-radius:20px;padding:14px;margin-bottom:12px}
+.sw-block-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:10px;font-size:14px}
+.sw-block-head .sw-link{color:#90caf9;font-size:12px}
+.sw-list{display:flex;flex-direction:column;gap:8px}
+.sw-tx{display:flex;align-items:center;gap:12px;background:var(--stx-surface-2);border-radius:14px;padding:10px 12px}
+.sw-tx-ico{width:38px;height:38px;border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:17px;font-weight:800;flex-shrink:0}
+.sw-tx-ico.in{background:rgba(34,197,94,.16);color:#4ade80}.sw-tx-ico.out{background:rgba(239,68,68,.16);color:#f87171}
+.sw-tx-main{flex:1;min-width:0}.sw-tx-title{font-size:13px;font-weight:700;overflow-wrap:anywhere}.sw-tx-date{font-size:10.5px;color:var(--stx-muted);margin-top:2px}
+.sw-tx-amt{font-size:13px;font-weight:800;white-space:nowrap}.sw-tx-amt.in{color:#4ade80}.sw-tx-amt.out{color:#f87171}
+.sw-empty{display:flex;flex-direction:column;align-items:center;gap:5px;text-align:center;padding:26px 10px;color:var(--stx-muted);font-size:12px}
+.sw-empty b{font-size:14px;color:var(--stx-text)}
+.sw-clear{margin-top:12px;width:100%;border:1px solid var(--stx-line);background:none;color:var(--stx-muted);border-radius:12px;padding:10px;font-size:12px;font-weight:700;cursor:pointer}
+.sw-an-label{font-size:11px;color:var(--stx-muted);margin:10px 0 8px}
+.sw-chart{display:flex;align-items:flex-end;gap:6px;height:130px;margin-top:14px}
+.sw-col{flex:1;min-width:0;height:100%;display:flex;flex-direction:column;justify-content:flex-end;align-items:center}
+.sw-bars{flex:1;width:100%;display:flex;align-items:flex-end;justify-content:center;gap:2px}
+.sw-bars i{display:block;width:42%;min-height:2px;border-radius:4px 4px 0 0}
+.sw-bars i.in,.sw-legend i.in{background:#22c55e}.sw-bars i.out,.sw-legend i.out{background:#ef4444}
+.sw-col span{font-size:9px;color:var(--stx-muted);height:14px;margin-top:5px;line-height:14px}
+.sw-chart.dense{gap:2px}.sw-chart.dense .sw-bars i{width:46%}
+.sw-legend{display:flex;gap:14px;justify-content:center;margin-top:6px;font-size:10.5px;color:var(--stx-muted)}
+.sw-legend i{display:inline-block;width:9px;height:9px;border-radius:3px;margin-right:5px}
+#swScrim{position:fixed;inset:0;background:rgba(0,0,0,.6);z-index:11000;opacity:0;pointer-events:none;transition:opacity .2s}
+#swScrim.open{opacity:1;pointer-events:auto}
+.sw-sheet{position:fixed;left:0;right:0;bottom:0;z-index:11001;max-height:88vh;overflow-y:auto;background:var(--stx-surface);border-radius:26px 26px 0 0;padding:10px 18px calc(22px + env(safe-area-inset-bottom));transform:translateY(105%);transition:transform .25s ease;visibility:hidden;box-shadow:0 -12px 40px rgba(0,0,0,.5)}
+.sw-sheet.open{transform:translateY(0);visibility:visible}
+.sw-grab{width:42px;height:5px;border-radius:99px;background:var(--stx-line);margin:2px auto 12px}
+.sw-sheet-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px}
+.sw-sheet-head small{display:block;font-size:10px;font-weight:800;letter-spacing:1px;color:#90caf9}.sw-sheet-head b{font-size:17px}
+.sw-sheet-head button{width:36px;height:36px;border-radius:50%;border:0;background:var(--stx-surface-2);color:inherit;font-size:14px;cursor:pointer}
+.sw-sheet-note{font-size:12px;color:var(--stx-muted);margin-bottom:8px;line-height:1.5}
+.sw-remainder{background:rgba(59,130,246,.12);border-radius:14px;padding:12px 14px;margin:6px 0;font-size:12px}.sw-remainder b{font-size:16px;margin-left:6px}
+.sw-submit{width:100%;margin-top:10px;border:0;border-radius:15px;padding:15px;font-size:14px;font-weight:800;color:#fff;cursor:pointer;background:linear-gradient(135deg,#2b7bff,#1456d6);box-shadow:0 8px 20px rgba(29,107,255,.28)}
+.sw-submit-red{background:linear-gradient(135deg,#ef4444,#b91c1c);box-shadow:0 8px 20px rgba(220,38,38,.28)}
+.sw-sheet .stx-saving-input{display:block;width:100%!important;height:auto!important;margin:7px 0!important;padding:14px!important;font-size:15px!important;box-sizing:border-box!important}
+body.light-mode .sw-stat2,body.light-mode .sw-act,body.light-mode .sw-block,body.light-mode .sw-sheet{background:#fff;border-color:#e4e8ed}
+body.light-mode .sw-act-primary{background:linear-gradient(135deg,#2b7bff,#1456d6);color:#fff}
+body.light-mode .sw-tx{background:#f1f4f8}
+body.light-mode .sw-sheet-head button{background:#f1f4f8}
+body.light-mode .sw-empty b{color:#1f2937}
+.stx-analytics-stats{display:grid!important;grid-template-columns:repeat(3,minmax(0,1fr))!important;gap:8px!important}
+.stx-analytics-stat{padding:10px 4px!important;text-align:center}
+.stx-analytics-stat b{font-size:12px!important}
+
+</style>
 </head>
 
 <body id="appBody" class="dark-mode">
@@ -1065,14 +1198,45 @@ body.light-mode .tg-ic{background:#fff;border-color:#e4e8ed}
   ]);
   const v2Keys = ['stx_tabungan_data','stx_motivation_cover_v1','stx_activity_notifications','stx_guru_rpl','stx_struktur_kelas','stx_jadwal_piket','stx_jadwal_mbg'];
   function activeEmail(){ return nativeGet.call(localStorage,'stx_active_session') || ''; }
+  function accountFor(email){
+    try{const raw=nativeGet.call(localStorage,'stx_database_accounts');const all=raw?JSON.parse(raw):{};return all[email]||{};}catch(e){return {};}
+  }
+  function scopedPrefix(email, levelOverride){
+    const account=accountFor(email);
+    if(account.stxMultiLevelStorage===true){
+      const level=String(levelOverride||account.jenjang||'SMK').toUpperCase();
+      return '__stx_user__'+encodeURIComponent(email)+'__level__'+level+'__';
+    }
+    return '__stx_user__'+encodeURIComponent(email)+'__';
+  }
   function isPersonal(key){ return personalKeys.has(key) || String(key).indexOf('stx_notif_read_')===0; }
   function scoped(key){
     const e=activeEmail();
-    return e ? '__stx_user__'+encodeURIComponent(e)+'__'+key : key;
+    return e ? scopedPrefix(e)+key : key;
   }
+  window.STX_ENABLE_LEVEL_SCOPING=function(email,newLevel){
+    if(!email)return;
+    const account=accountFor(email);
+    if(account.stxMultiLevelStorage===true)return;
+    const oldPrefix='__stx_user__'+encodeURIComponent(email)+'__';
+    const oldLevel=String(account.jenjang||'SMK').toUpperCase();
+    const newPrefix='__stx_user__'+encodeURIComponent(email)+'__level__'+oldLevel+'__';
+    personalKeys.forEach(function(key){
+      const oldKey=oldPrefix+key, newKey=newPrefix+key;
+      const value=nativeGet.call(localStorage,oldKey);
+      if(value!==null&&nativeGet.call(localStorage,newKey)===null)nativeSet.call(localStorage,newKey,value);
+    });
+    for(let i=0;i<localStorage.length;i++){
+      const key=localStorage.key(i);
+      if(key&&key.indexOf(oldPrefix+'stx_notif_read_')===0){
+        const newKey=newPrefix+key.slice(oldPrefix.length),value=nativeGet.call(localStorage,key);
+        if(value!==null&&nativeGet.call(localStorage,newKey)===null)nativeSet.call(localStorage,newKey,value);
+      }
+    }
+  };
   window.STX_INIT_USER_WORKSPACE=function(email, migrateLegacy){
     if(!email) return;
-    const prefix='__stx_user__'+encodeURIComponent(email)+'__';
+    const prefix=scopedPrefix(email);
     personalKeys.forEach(function(key){
       if(v2Keys.indexOf(key)!==-1) return; // ditangani STX_MIGRATE_V2 (hanya pemilik akun pertama)
       const dest=prefix+key;
@@ -1233,6 +1397,7 @@ body.light-mode .tg-ic{background:#fff;border-color:#e4e8ed}
     <h3 id="drawerTitle">Pengaturan & Opsi</h3>
     <button class="header-icon-btn" onclick="closeDrawer()" style="font-size: 18px;">✕</button>
   </div>
+  <button type="button" onclick="stxOpenLevelSettings()" style="width:100%;text-align:left;padding:12px;margin:0 0 12px;border:1px solid #2c3d52;border-radius:12px;background:#121d2b;color:inherit;font-size:12px;font-weight:700;cursor:pointer;">🎓 Jenjang Pendidikan <span style="display:block;font-size:10px;color:#91a4ba;font-weight:400;margin-top:4px;">Ubah SD, SMP, atau SMK</span></button>
 
   <div id="installAppRow" onclick="stxInstallApp()" style="display:none; background: rgba(34,197,94,0.14); border: 1px solid rgba(34,197,94,0.45); padding: 12px; border-radius: 12px; margin-bottom: 10px; cursor: pointer; align-items: center; justify-content: space-between;">
     <div style="font-weight: bold; font-size: 12px; color: #4ade80;">📲 Instal Aplikasi STX</div>
@@ -1283,6 +1448,15 @@ body.light-mode .tg-ic{background:#fff;border-color:#e4e8ed}
     <a href="https://www.tiktok.com/@ifalltruee?_r=1&_t=ZS-9AGKI5TaRXR" target="_blank" style="flex: 1; background: #000000; border: 1px solid #3f3f46; color: #fff; text-decoration: none; padding: 10px; border-radius: 10px; font-size: 11px; font-weight: bold; text-align: center; display: flex; align-items: center; justify-content: center; gap: 4px;">
       🎵 TikTok
     </a>
+  </div>
+
+  <div class="stx-data-center">
+    <div class="stx-data-center-head"><span>🗄️</span><div><b>Pusat Data STX</b><small>Data lokal di perangkat ini</small></div></div>
+    <p>Cadangkan data ke berkas HP atau pulihkan dari cadangan. Tidak ada data yang dikirim ke cloud.</p>
+    <button type="button" class="stx-data-btn" onclick="stxExportBackup()">⬇️ Cadangkan Semua Data</button>
+    <button type="button" class="stx-data-btn secondary" onclick="document.getElementById('stxBackupFileInput').click()">⬆️ Pulihkan Cadangan</button>
+    <input id="stxBackupFileInput" type="file" accept=".json,application/json" hidden onchange="stxImportBackup(event)">
+    <div id="stxStorageStatus" class="stx-storage-status">Memeriksa penyimpanan lokal…</div>
   </div>
 
   <button class="main-btn" id="btnLogoutDrawer" style="background:#e53935; margin-top: auto;" onclick="logoutSession()">🚪 Keluar Sesi (Logout)</button>
@@ -1337,8 +1511,7 @@ body.light-mode .tg-ic{background:#fff;border-color:#e4e8ed}
       <div id="registerNameField" style="display:none;">
         <input type="text" id="regNameInput" placeholder="Nama Lengkap (Pengguna)" oninput="clearErrors()">
         <div id="nameError" class="error-msg"></div>
-        <input type="text" id="regClassInput" placeholder="Kelas (contoh: X-PPLG)" oninput="clearErrors()">
-        <div id="classError" class="error-msg"></div>
+        <div style="font-size:11px;color:#9ca3af;text-align:left;margin:0 2px 8px;">Jenjang dan kelas akan dipilih setelah akun berhasil dibuat.</div>
         <input type="text" id="regOrgInput" placeholder="Organisasi / Ekstrakurikuler (opsional)" oninput="clearErrors()">
       </div>
       
@@ -1359,6 +1532,32 @@ body.light-mode .tg-ic{background:#fff;border-color:#e4e8ed}
     </div>
     <button type="button" id="installLoginBtn" onclick="stxInstallApp()" style="display:none;margin:16px auto 0;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.18);color:#90caf9;border-radius:12px;padding:10px 16px;font-size:12px;font-weight:700;cursor:pointer;">📲 Instal Aplikasi STX</button>
     <div style="margin-top: 20px; font-size: 11px; opacity: 0.6;">© 2026 SMKN 1 Ciamis</div>
+  </div>
+</section>
+
+<!-- ================= STX MULTI-JENJANG ONBOARDING ================= -->
+<section id="stxLevelPage" class="page stx-level-page">
+  <div class="stx-level-shell">
+    <div class="stx-level-brand"><div class="stx-level-mark">X</div><div class="stx-level-brand-name">STX <span>StudyTrack X</span></div></div>
+    <div class="stx-level-welcome">WELCOME TO STUDYTRACK X</div>
+    <h1 id="stxLevelHeading">Pilih jenjang pendidikanmu</h1>
+    <p class="stx-level-desc">STX akan menyesuaikan kelas, materi, dan pengalaman belajar berdasarkan jenjang yang kamu pilih.</p>
+    <div class="stx-level-options" role="group" aria-label="Pilih jenjang pendidikan">
+      <button type="button" class="stx-level-option" data-level="SD" onclick="stxSelectLevel('SD',this)"><span class="stx-level-icon">🌱</span><b>STX Kids</b><small>Sekolah Dasar</small><em>Kelas 1–6</em></button>
+      <button type="button" class="stx-level-option" data-level="SMP" onclick="stxSelectLevel('SMP',this)"><span class="stx-level-icon">📘</span><b>STX Junior</b><small>Sekolah Menengah Pertama</small><em>Kelas 7–9</em></button>
+      <button type="button" class="stx-level-option" data-level="SMK" onclick="stxSelectLevel('SMK',this)"><span class="stx-level-icon">💻</span><b>STX</b><small>Sekolah Menengah Kejuruan</small><em>Kelas X–XII</em></button>
+    </div>
+    <div class="stx-level-form">
+      <label for="stxLevelGrade">Kelas</label>
+      <select id="stxLevelGrade" disabled><option value="">Pilih jenjang terlebih dahulu</option></select>
+      <div id="stxLevelMajorWrap" style="display:none"><label for="stxLevelMajor">Jurusan (SMK)</label><select id="stxLevelMajor"><option value="PPLG">PPLG / Pengembangan Perangkat Lunak dan Gim</option><option value="TJKT">TJKT</option><option value="AKL">AKL</option><option value="MPLB">MPLB</option><option value="Lainnya">Jurusan lainnya</option></select></div>
+      <label for="stxLevelSchool">Nama sekolah</label>
+      <input id="stxLevelSchool" type="text" placeholder="Contoh: nama sekolahmu" maxlength="100">
+      <label for="stxLevelOrg">Organisasi / ekstrakurikuler <span>(opsional)</span></label>
+      <input id="stxLevelOrg" type="text" placeholder="Boleh dikosongkan" maxlength="100">
+      <button type="button" class="main-btn" id="stxLevelContinue" onclick="stxCompleteLevelSetup()" disabled>Lanjutkan ke STX →</button>
+      <p class="stx-level-footnote">Pilihan jenjang tersimpan pada akunmu. Kamu tidak perlu memilihnya lagi setiap login.</p>
+    </div>
   </div>
 </section>
 
@@ -1400,7 +1599,7 @@ body.light-mode .tg-ic{background:#fff;border-color:#e4e8ed}
 
   <div class="stx-home-section-title"><span>⚡ Akses Cepat</span><span style="font-size:9px;color:var(--stx-muted);font-weight:500">Fitur favoritmu</span></div>
     <div class="stx-home-quick-row">
-    <div class="stx-home-quick" onclick="switchTab('materi')"><span>📖</span><b>Belajar</b></div>
+    <div class="stx-home-quick" onclick="switchTab('materi')"><span>📖</span><b>Materi Pribadi</b></div>
     <div class="stx-home-quick" onclick="switchTab('tugas')"><span>📝</span><b>Tugas</b></div>
     <div class="stx-home-quick" onclick="switchTab('jadwal')"><span>🗓️</span><b>Jadwal</b></div>
     <div class="stx-home-quick" onclick="switchTab('kalkulator')"><span>🧮</span><b>Kalkulator</b></div>
@@ -1421,10 +1620,10 @@ body.light-mode .tg-ic{background:#fff;border-color:#e4e8ed}
     <div id="homeRecentMateriContainer"></div>
   </div>
 
-  <div class="card-box" style="border-left: 4px solid #f59e0b;">
+  <div class="card-box" data-stx-smk-only="true" style="border-left: 4px solid #f59e0b;">
     <div style="display:flex; justify-content:space-between; margin-bottom:8px; font-size:13px; font-weight:bold; color:#f59e0b;">
       <span>🧹 Jadwal Piket Hari Ini</span>
-      <span onclick="switchTab('kelasRpl')" style="cursor:pointer; font-size:11px; text-decoration:underline;">Kelola Kelas & Piket</span>
+      <span data-stx-smk-only="true" onclick="switchTab('kelasRpl')" style="cursor:pointer; font-size:11px; text-decoration:underline;">Kelola Kelas & Piket</span>
     </div>
     <div id="homeTodayPiketContainer"></div>
   </div>
@@ -1459,31 +1658,29 @@ body.light-mode .tg-ic{background:#fff;border-color:#e4e8ed}
 <section id="tabSWallet" class="page stx-saving-page">
   <div class="app-header">
     <button type="button" class="header-icon-btn" onclick="switchTab('beranda')" aria-label="Kembali">←</button>
-    <h2>Student Wallet</h2>
+    <h2>Student Wallet<small>S.Wallet · STX</small></h2>
     <div style="width:20px;"></div>
   </div>
 
-  <div class="stx-saving-top-row">
-<div class="stx-saving-balance">
-    <div class="stx-saving-balance-label">TOTAL TABUNGAN</div>
-    <div class="stx-saving-balance-value" id="savingBalance">Rp0</div>
-    <div class="stx-saving-small" id="savingTargetText">Belum ada target tabungan</div>
-    <div class="stx-saving-progress"><div class="stx-saving-progress-fill" id="savingProgressFill"></div></div>
-    <div class="stx-saving-small" id="savingProgressText">0% dari target</div>
+  <div class="sw-hero">
+    <div class="sw-hero-top"><span>Total saldo</span><button type="button" class="sw-link" onclick="swOpenSheet('target')">🎯 Atur target</button></div>
+    <div class="sw-balance" id="savingBalance">Rp0</div>
+    <div class="sw-hero-mini">📈 7 hari terakhir <b id="savingWeekTotal">Rp0</b> · <b id="savingDaysCount">0 hari</b> menabung</div>
+    <div class="sw-target">
+      <div class="sw-target-text" id="savingTargetText">Belum ada target tabungan</div>
+      <div class="sw-bar"><div class="sw-bar-fill" id="savingProgressFill"></div></div>
+      <div class="sw-target-pct" id="savingProgressText">0% dari target</div>
+    </div>
   </div>
 
-  <div class="sw-stats">
-    <div class="sw-stat"><small>7 hari terakhir</small><b id="savingWeekTotal">Rp0</b></div>
-    <div class="sw-stat"><small>Hari menabung</small><b id="savingDaysCount">0 hari</b></div>
+  <div class="sw-stats2">
+    <div class="sw-stat2"><div class="sw-ico sw-ico-g">🐷</div><small>Ditabung bulan ini</small><b id="swMonthIn">Rp0</b></div>
+    <div class="sw-stat2"><div class="sw-ico sw-ico-r">💸</div><small>Ditarik bulan ini</small><b id="swMonthOut">Rp0</b></div>
   </div>
 
-  <div class="stx-saving-card stx-saving-target-card">
-    <h3>🎯 Target Tabungan</h3>
-    <input class="stx-saving-input" id="savingTargetName" type="text" placeholder="Contoh: Laptop">
-    <input class="stx-saving-input" id="savingTargetAmount" type="number" min="0" inputmode="numeric" placeholder="Target uang (Rp)">
-    <button type="button" class="stx-saving-action" style="width:100%;margin-top:5px" onclick="saveSavingTarget()">💾 Simpan Target</button>
-  </div>
-
+  <div class="sw-actions">
+    <button type="button" class="sw-act sw-act-primary" onclick="swOpenSheet('tabung')"><span>＋</span>Tabung</button>
+    <button type="button" class="sw-act" onclick="swOpenSheet('tarik')"><span>↗</span>Tarik uang</button>
   </div>
 
   <div class="stx-wallet-tabs">
@@ -1492,23 +1689,16 @@ body.light-mode .tg-ic{background:#fff;border-color:#e4e8ed}
   </div>
 
   <div id="walletRingkasanView">
-<div class="stx-saving-card stx-saving-jajan-card">
-    <div class="stx-section-heading"><div><span class="stx-section-kicker">KEUANGAN HARI INI</span><h3>💵 Tambah Tabungan</h3></div><span class="stx-section-badge">INPUT</span></div>
-    <input class="stx-saving-input" id="savingAllowance" type="number" min="0" inputmode="numeric" placeholder="Uang jajan hari ini (Rp)" oninput="calculateSavingRemainder()">
-    <input class="stx-saving-input" id="savingExpense" type="number" min="0" inputmode="numeric" placeholder="Total pengeluaran (Rp)" oninput="calculateSavingRemainder()">
-    <div style="background:rgba(25,118,210,.1);border-radius:12px;padding:11px;margin:7px 0;font-size:11px;">
-      Sisa uang hari ini: <b id="savingRemainder" style="font-size:15px;">Rp0</b>
+    <div class="sw-block">
+      <div class="sw-block-head"><b>Transaksi terakhir</b><button type="button" class="sw-link" id="swSeeAll" onclick="swToggleAll()">Lihat semua</button></div>
+      <div id="savingHistory" class="sw-list"></div>
+      <button type="button" class="sw-clear" onclick="clearSavingHistory()">🗑 Hapus riwayat</button>
     </div>
-    <input class="stx-saving-input" id="savingDeposit" type="number" min="0" inputmode="numeric" placeholder="Nominal yang mau ditabung (Rp)">
-    <input class="stx-saving-input" id="savingNote" type="text" maxlength="60" placeholder="Catatan (opsional), contoh: Sisa jajan">
-    <button type="button" class="stx-saving-action" style="width:100%;margin-top:5px" onclick="addSavingTransaction()">＋ Tabung Sekarang</button>
-  </div>
-
   </div>
 
   <div id="walletAnalitikView" style="display:none">
-    <div class="stx-saving-card">
-      <div class="stx-analytics-title">📊 Analitik Tabungan</div>
+    <div class="sw-block">
+      <div class="sw-block-head"><b>📊 Analitik tabungan</b></div>
       <div class="stx-analytics-periods">
         <button type="button" class="stx-analytics-period active" onclick="setSavingAnalytics('7',this)">7 Hari</button>
         <button type="button" class="stx-analytics-period" onclick="setSavingAnalytics('30',this)">30 Hari</button>
@@ -1516,19 +1706,6 @@ body.light-mode .tg-ic{background:#fff;border-color:#e4e8ed}
       </div>
       <div id="savingAnalyticsContent"></div>
     </div>
-  </div>
-
-  <div class="stx-saving-card stx-saving-withdraw-card">
-    <h3>💸 Tarik Uang</h3>
-    <div style="font-size:10px;color:#9ca3af;margin-bottom:8px;">Tarik uang dari saldo Student Wallet. Saldo akan langsung berkurang.</div>
-    <input class="stx-saving-input" id="savingWithdrawAmount" type="number" min="1" inputmode="numeric" placeholder="Nominal yang ingin ditarik (Rp)">
-    <input class="stx-saving-input" id="savingWithdrawNote" type="text" maxlength="60" placeholder="Catatan (opsional), contoh: Beli alat tulis">
-    <button type="button" class="stx-saving-action" style="width:100%;margin-top:5px;background:#dc2626" onclick="withdrawSavingTransaction()">💸 Tarik Uang</button>
-  </div>
-
-  <div class="stx-saving-card">
-    <div style="display:flex;justify-content:space-between;align-items:center;gap:8px;margin-bottom:3px"><h3 style="margin:0">📋 Riwayat Transaksi</h3><button type="button" class="stx-saving-action stx-saving-secondary" style="padding:7px 9px" onclick="clearSavingHistory()">Hapus Riwayat</button></div>
-    <div id="savingHistory" class="stx-saving-history"></div>
   </div>
 </section>
 
@@ -1943,7 +2120,7 @@ body.light-mode .tg-ic{background:#fff;border-color:#e4e8ed}
 </section>
 
 <!-- ================= HALAMAN KELAS RPL ================= -->
-<section id="tabKelasRpl" class="page">
+<section id="tabKelasRpl" class="page" data-stx-smk-only="true">
   <div class="app-header">
     <button class="header-icon-btn" onclick="switchTab('profil')">←</button>
     <h2>Informasi Kelas RPL</h2>
@@ -1997,7 +2174,7 @@ body.light-mode .tg-ic{background:#fff;border-color:#e4e8ed}
 
 
 <!-- ================= HALAMAN DAFTAR SISWA & GURU RPL ================= -->
-<section id="tabDaftarRpl" class="page">
+<section id="tabDaftarRpl" class="page" data-stx-smk-only="true">
   <div class="app-header">
     <button class="header-icon-btn" onclick="switchTab('kelasRpl')">←</button>
     <h2>Daftar RPL</h2>
@@ -2216,6 +2393,11 @@ body.light-mode .tg-ic{background:#fff;border-color:#e4e8ed}
     <div class="fm-section">Isi catatan</div>
     <label style="font-size: 12px; font-weight: bold;" id="lblMateriCatatan">Catatan / Ringkasan</label>
     <textarea id="inputMateriCatatan" placeholder="Tulis ringkasan pembelajaran..."></textarea>
+    <div class="fm-section">Foto catatan</div>
+    <div class="ph-hint">Untuk tulisan yang tidak bisa diketik, seperti aksara Sunda, rumus, atau gambar. <b id="phCount">0/10</b></div>
+    <div id="materiPhotoGrid" class="ph-grid"></div>
+    <button type="button" class="ph-add" id="btnAddPhoto" onclick="document.getElementById('materiPhotoInput').click()">📷 Tambah foto</button>
+    <input type="file" id="materiPhotoInput" accept="image/*" multiple style="display:none" onchange="stxPickPhotos(this)">
     <button class="main-btn" id="btnSimpanMateri" onclick="simpanMateriBaru()" style="margin-top:15px;">💾 Simpan Materi</button>
   </div>
 </section>
@@ -2360,6 +2542,7 @@ body.light-mode .tg-ic{background:#fff;border-color:#e4e8ed}
     <button class="main-btn" onclick="simpanEditProfil()">💾 Simpan Perubahan</button>
   </div>
 </section>
+
 
 
 <!-- BOTTOM NAVIGATION BAR (PETA DIKEMBALIKAN) -->
@@ -2944,6 +3127,7 @@ function togglePasswordVisibility() {
   if(p.type === "password") { p.type = "text"; eye.textContent = "🙈"; } else { p.type = "password"; eye.textContent = "👁"; }
 }
 function showPage(id) {
+  try { swCloseSheets(); } catch(e) {}
   document.querySelectorAll(".page").forEach(p => p.classList.remove("active"));
   document.getElementById(id).classList.add("active");
   const nav = document.getElementById("bottomNav");
@@ -3002,55 +3186,163 @@ function handleAuthSubmit(e) {
   const email = document.getElementById("authEmailInput").value.trim().toLowerCase();
   const password = document.getElementById("authPasswordInput").value;
   const name = document.getElementById("regNameInput").value.trim();
-  const className = (document.getElementById("regClassInput")?.value || "").trim();
   const organization = (document.getElementById("regOrgInput")?.value || "").trim();
   let accounts = JSON.parse(localStorage.getItem("stx_database_accounts")) || {};
 
   if(isRegisterMode) {
     if(!name) { document.getElementById("nameError").textContent = "Nama lengkap wajib diisi!"; document.getElementById("nameError").style.display = "block"; return; }
-    if(!className) { const el=document.getElementById("classError"); if(el){el.textContent="Kelas wajib diisi!";el.style.display="block";} return; }
+    if(!email || !password) { showToast("Email dan password wajib diisi."); return; }
     if(accounts[email]) { document.getElementById("emailError").textContent = "Email sudah terdaftar!"; document.getElementById("emailError").style.display = "block"; return; }
 
-    // Akun BARU selalu dibuat dengan data pribadi yang benar-benar baru/kosong.
+    // Akun baru: data profil dibuat kosong; jenjang dan kelas dipilih sesudah login pertama.
     accounts[email] = {
-      namaAsli: name, namaSamaran: name, email: email, password: password,
-      bio: "", tempatLahir: "", tanggalLahir: "",
-      jenisKelamin: "", jurusan: "PPLG", kelas: className,
-      sekolah: "SMKN 1 Ciamis", organisasi: organization, profilePhoto: "",
-      barcodeImage: "", attendance: [], coins: 0, unlockedBorders: ['default'],
-      equippedBorder: 'default', claimedWelcomeReward: false, hasSeenTutorial: false,
-      workspaceInitialized: true
+      namaAsli:name,namaSamaran:name,email:email,password:password,
+      bio:"",tempatLahir:"",tanggalLahir:"",jenisKelamin:"",
+      jurusan:"",kelas:"",jenjang:"",sekolah:"",organisasi:organization,
+      profilePhoto:"",barcodeImage:"",attendance:[],coins:0,
+      unlockedBorders:["default"],equippedBorder:"default",
+      claimedWelcomeReward:false,hasSeenTutorial:false,workspaceInitialized:true,
+      stxOnboardingComplete:false,stxMultiLevelStorage:true
     };
-    localStorage.setItem("stx_database_accounts", JSON.stringify(accounts));
-    showToast("Registrasi berhasil! Data akun baru dibuat kosong.");
+    localStorage.setItem("stx_database_accounts",JSON.stringify(accounts));
+    showToast("Registrasi berhasil! Silakan masuk, lalu pilih jenjang pendidikan.");
     toggleAuthMode();
   } else {
     if(!accounts[email]) { document.getElementById("emailError").textContent = "Email belum terdaftar!"; document.getElementById("emailError").style.display = "block"; return; }
     if(accounts[email].password !== password) { document.getElementById("passwordError").textContent = "Password salah!"; document.getElementById("passwordError").style.display = "block"; return; }
 
-    // Akun lama: pertahankan data account object dan migrasikan data localStorage lama
-    // hanya untuk akun lama pertama yang login setelah sistem pemisahan diaktifkan.
     const wasLegacyAccount = accounts[email].workspaceInitialized !== true;
-    if(accounts[email].kelas === undefined) accounts[email].kelas = "";
-    if(accounts[email].organisasi === undefined) accounts[email].organisasi = "";
-    if(!Array.isArray(accounts[email].attendance)) accounts[email].attendance = [];
-    if(accounts[email].barcodeImage === undefined) accounts[email].barcodeImage = "";
-    accounts[email].workspaceInitialized = true;
-    localStorage.setItem("stx_database_accounts", JSON.stringify(accounts));
-    localStorage.setItem("stx_active_session", email);
-    if(window.STX_INIT_USER_WORKSPACE) STX_INIT_USER_WORKSPACE(email, wasLegacyAccount);
+    const account = accounts[email];
+    if(account.kelas === undefined) account.kelas = "";
+    if(account.organisasi === undefined) account.organisasi = "";
+    if(!Array.isArray(account.attendance)) account.attendance = [];
+    if(account.barcodeImage === undefined) account.barcodeImage = "";
 
+    // Akun yang sudah ada sebelum fitur multi-jenjang dilewati agar tidak mengganggu alur login lama.
+    // Akun baru ditandai stxOnboardingComplete=false dan akan melihat pemilihan jenjang satu kali.
+    if(account.stxOnboardingComplete === undefined) {
+      const oldClass=String(account.kelas||"").trim().toUpperCase();
+      let inferred="SMK";
+      if(/^(KELAS\s*)?(1|2|3|4|5|6)(\b|\s|[-])/i.test(oldClass)) inferred="SD";
+      else if(/^(KELAS\s*)?(7|8|9)(\b|\s|[-])/i.test(oldClass)) inferred="SMP";
+      else if(/^(X|XI|XII)(\b|\s|-)/i.test(oldClass) || /SMK/i.test(String(account.sekolah||""))) inferred="SMK";
+      account.jenjang=account.jenjang||inferred;
+      account.stxOnboardingComplete=true;
+      account.stxMultiLevelStorage=false; // data akun lama tetap memakai kunci lama sampai pengguna mengganti jenjang
+    }
+    account.workspaceInitialized=true;
+    localStorage.setItem("stx_database_accounts",JSON.stringify(accounts));
+    localStorage.setItem("stx_active_session",email);
+    if(window.STX_INIT_USER_WORKSPACE) STX_INIT_USER_WORKSPACE(email,wasLegacyAccount);
+
+    if(account.stxOnboardingComplete===false) {
+      stxOpenLevelSetup(false);
+      return;
+    }
+    stxApplyLevel(account.jenjang||"SMK");
     renderAllData();
-    switchTab('beranda');
+    switchTab("beranda");
 
-    if(!accounts[email].hasSeenTutorial) {
+    if(!account.hasSeenTutorial) {
       document.getElementById("tutorialModal").classList.add("active");
-      accounts[email].hasSeenTutorial = true;
-      localStorage.setItem("stx_database_accounts", JSON.stringify(accounts));
+      account.hasSeenTutorial=true;
+      localStorage.setItem("stx_database_accounts",JSON.stringify(accounts));
     }
     showToast("Berhasil Masuk!");
   }
 }
+function stxSelectedLevel(){const u=getCurrentUserData();return String(u.jenjang||"SMK").toUpperCase();}
+function stxApplyLevel(level){
+  level=String(level||"SMK").toUpperCase();
+  if(!["SD","SMP","SMK"].includes(level))level="SMK";
+  document.body.classList.remove("stx-level-sd","stx-level-smp","stx-level-smk");
+  document.body.classList.add("stx-level-"+level.toLowerCase());
+  document.body.dataset.stxLevel=level;
+  document.title="StudyTrack X"+(level==="SD"?" Kids":level==="SMP"?" Junior":"")+" — "+level;
+  document.querySelectorAll("[data-stx-smk-only]").forEach(el=>{el.style.display=level==="SMK"?"":"none";});
+  const subtitle=document.getElementById("authSubtitle");
+  if(subtitle)subtitle.innerHTML="Sistem Progres Pembelajaran <b>"+(level==="SD"?"Sekolah Dasar":level==="SMP"?"Sekolah Menengah Pertama":"Sekolah Menengah Kejuruan")+"</b>";
+  const homeSub=document.getElementById("welcomeStxSub");
+  if(homeSub)homeSub.textContent=level==="SD"?"WELCOME TO STX KIDS • SD":level==="SMP"?"WELCOME TO STX JUNIOR • SMP":"WELCOME TO STX • SMK";
+}
+let stxPendingLevel=""; 
+function stxSelectLevel(level,button){
+  stxPendingLevel=String(level||"").toUpperCase();
+  document.querySelectorAll(".stx-level-option").forEach(b=>b.classList.toggle("selected",b===button));
+  const grade=document.getElementById("stxLevelGrade");
+  const options=stxPendingLevel==="SD"?[["1","Kelas 1"],["2","Kelas 2"],["3","Kelas 3"],["4","Kelas 4"],["5","Kelas 5"],["6","Kelas 6"]]:stxPendingLevel==="SMP"?[["7","Kelas 7"],["8","Kelas 8"],["9","Kelas 9"]]:[["X","Kelas X"],["XI","Kelas XI"],["XII","Kelas XII"]];
+  grade.innerHTML='<option value="">Pilih kelas</option>'+options.map(o=>'<option value="'+o[0]+'">'+o[1]+'</option>').join("");
+  grade.disabled=false;
+  document.getElementById("stxLevelMajorWrap").style.display=stxPendingLevel==="SMK"?"block":"none";
+  document.getElementById("stxLevelSchool").placeholder=stxPendingLevel==="SMK"?"Contoh: SMKN 1 Ciamis":"Nama sekolahmu";
+  stxValidateLevelForm();
+}
+function stxValidateLevelForm(){
+  const grade=document.getElementById("stxLevelGrade"),school=document.getElementById("stxLevelSchool"),btn=document.getElementById("stxLevelContinue");
+  if(!btn)return;
+  btn.disabled=!(stxPendingLevel&&grade&&grade.value&&school&&school.value.trim());
+}
+function stxOpenLevelSetup(changeLevel){
+  const account=getCurrentUserData();
+  const current=String(account.jenjang||"").toUpperCase();
+  stxPendingLevel="";
+  document.getElementById("stxLevelHeading").textContent=changeLevel?"Ubah jenjang pendidikan":"Pilih jenjang pendidikanmu";
+  document.getElementById("stxLevelSchool").value=account.sekolah||"";
+  document.getElementById("stxLevelOrg").value=account.organisasi||"";
+  document.getElementById("stxLevelGrade").innerHTML='<option value="">Pilih jenjang terlebih dahulu</option>';
+  document.getElementById("stxLevelGrade").disabled=true;
+  document.getElementById("stxLevelMajorWrap").style.display="none";
+  document.querySelectorAll(".stx-level-option").forEach(b=>b.classList.toggle("selected",changeLevel&&b.dataset.level===current));
+  if(changeLevel&&current){
+    stxSelectLevel(current,document.querySelector('.stx-level-option[data-level="'+current+'"]'));
+    const savedGrade=String(account.kelas||"");
+    const gradeSelect=document.getElementById("stxLevelGrade");
+    if(Array.from(gradeSelect.options).some(o=>o.value===savedGrade))gradeSelect.value=savedGrade;
+    document.getElementById("stxLevelMajor").value=account.jurusan||"PPLG";
+    stxValidateLevelForm();
+  }
+  showPage("stxLevelPage");
+}
+function stxCompleteLevelSetup(){
+  const email=localStorage.getItem("stx_active_session");
+  const accounts=JSON.parse(localStorage.getItem("stx_database_accounts")||"{}");
+  const account=accounts[email];
+  const grade=document.getElementById("stxLevelGrade").value;
+  const school=document.getElementById("stxLevelSchool").value.trim();
+  const org=document.getElementById("stxLevelOrg").value.trim();
+  if(!email||!account){showToast("Sesi akun tidak ditemukan. Silakan login kembali.");showPage("loginPage");return;}
+  if(!stxPendingLevel||!grade||!school){showToast("Pilih jenjang, kelas, dan isi nama sekolah.");return;}
+  const previous=String(account.jenjang||"").toUpperCase();
+  if(account.stxOnboardingComplete===true&&previous&&previous!==stxPendingLevel){
+    if(!confirm("Ganti jenjang dari "+previous+" ke "+stxPendingLevel+"? Data jenjang sebelumnya tetap disimpan sebagai arsip dan data pribadi per jenjang dipisahkan."))return;
+  }
+  account.jenjang=stxPendingLevel;
+  account.kelas=grade;
+  account.sekolah=school;
+  account.organisasi=org;
+  account.jurusan=stxPendingLevel==="SMK"?document.getElementById("stxLevelMajor").value:"";
+  account.stxOnboardingComplete=true;
+  account.stxMultiLevelStorage=true;
+  account.workspaceInitialized=true;
+  accounts[email]=account;
+  // Aktifkan pemisahan data per jenjang; data lama disalin sebelum skema akun lama berubah.
+  if(window.STX_ENABLE_LEVEL_SCOPING)window.STX_ENABLE_LEVEL_SCOPING(email,stxPendingLevel);
+  localStorage.setItem("stx_database_accounts",JSON.stringify(accounts));
+  if(window.STX_INIT_USER_WORKSPACE)STX_INIT_USER_WORKSPACE(email,false);
+  stxApplyLevel(stxPendingLevel);
+  renderAllData();
+  switchTab("beranda");
+  showToast("STX siap digunakan untuk jenjang "+stxPendingLevel+".");
+}
+function stxOpenLevelSettings(){
+  closeDrawer();
+  const active=localStorage.getItem("stx_active_session");
+  if(!active){showPage("loginPage");return;}
+  stxOpenLevelSetup(true);
+}
+document.getElementById("stxLevelGrade")?.addEventListener("change",stxValidateLevelForm);
+document.getElementById("stxLevelSchool")?.addEventListener("input",stxValidateLevelForm);
+
 function closeTutorialModal() { document.getElementById("tutorialModal").classList.remove("active"); }
 
 function renderSavedAccounts() {
@@ -3111,11 +3403,13 @@ function loadProfileData() {
   document.getElementById("profileEmailText").textContent = user.email || "-";
   document.getElementById("profileTTLText").textContent = `${user.tempatLahir || '-'}, ${user.tanggalLahir || '-'}`;
   document.getElementById("profileKelaminText").textContent = user.jenisKelamin || "-";
-  document.getElementById("profileJurusanText").textContent = user.jurusan || "PPLG";
-  document.getElementById("profileKelasText").textContent = user.kelas || "-";
+  const profileLevel=String(user.jenjang||"SMK").toUpperCase();
+  const gradeValue=String(user.kelas||"");
+  document.getElementById("profileJurusanText").textContent = profileLevel==="SMK"?(user.jurusan||"PPLG"):"Tidak berlaku untuk jenjang "+profileLevel;
+  document.getElementById("profileKelasText").textContent = gradeValue ? (profileLevel==="SMK" ? "Kelas "+gradeValue+(user.jurusan?"-"+user.jurusan:"") : "Kelas "+gradeValue) : "-";
   document.getElementById("profileOrganisasiText").textContent = user.organisasi || "-";
-  document.getElementById("profileSekolahText").textContent = user.sekolah || "SMKN 1 Ciamis";
-  document.getElementById("profileJurusanBadge").textContent = user.jurusan || "PPLG";
+  document.getElementById("profileSekolahText").textContent = user.sekolah || "-";
+  document.getElementById("profileJurusanBadge").textContent = profileLevel==="SMK"?(user.jurusan||"SMK"):profileLevel;
 
   const coins = user.coins || 0;
   document.getElementById("headerCoinXVal").textContent = coins;
@@ -3433,10 +3727,10 @@ function renderHomeRecentMateri() {
   materiCont.innerHTML = latest.map(m => `
     <div style="background:rgba(255,255,255,0.03); padding:8px 10px; border-radius:10px; margin-bottom:6px; font-size:12px;">
       <div style="display:flex; justify-content:space-between; font-weight:bold; color:#fde047;">
-        <span>📚 ${stxEsc(m.mapel)}</span>
+        <span>📚 ${stxEsc(m.mapel)}${(m.photos && m.photos.length) ? ' · 📷 ' + m.photos.length : ''}</span>
         <span style="font-size:10px; opacity:0.7; color:#90caf9;">${stxEsc(m.judul)}</span>
       </div>
-      <div style="font-size:11px; opacity:0.8; margin-top:2px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">${stxEsc(m.catatan || 'Tidak ada catatan')}</div>
+      <div style="font-size:11px; opacity:0.8; margin-top:2px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">${stxEsc(m.catatan || ((m.photos && m.photos.length) ? '📷 ' + m.photos.length + ' foto' : 'Tidak ada catatan'))}</div>
     </div>
   `).join('');
 }
@@ -4039,6 +4333,10 @@ function renderMateriSubjects() {
 }
 
 function renderMateriDetailByMapel(mapelName) {
+  _stxRenderDetailBase(mapelName);
+  stxHydratePhotos(document.getElementById("materiDetailContainer"));
+}
+function _stxRenderDetailBase(mapelName) {
   currentOpenMapel = mapelName;
   document.getElementById("materiSubjectGridContainer").style.display = "none";
   const detailCont = document.getElementById("materiDetailContainer");
@@ -4057,7 +4355,8 @@ function renderMateriDetailByMapel(mapelName) {
           <div class="mt-more" onclick="bukaOpsiMateri(${x.id})" title="Kelola">⋮</div>
           <h4>${stxEsc(x.judul || '')}</h4>
           ${isSoal && dateOf(x) ? `<div class="mt-date">📅 ${dateOf(x)}</div>` : ""}
-          <div class="mt-body">${formatMateriCatatan(x.catatan || 'Tidak ada catatan.')}</div>
+          ${x.catatan ? `<div class="mt-body">${formatMateriCatatan(x.catatan)}</div>` : ((x.photos && x.photos.length) ? '' : `<div class="mt-body">Tidak ada catatan.</div>`)}
+          ${(x.photos && x.photos.length) ? `<div class="mt-photos">${x.photos.map((pid, i) => `<img data-pid="${stxEsc(pid)}" alt="Foto ${i+1}" onclick="stxOpenPhotos(${x.id}, ${i})">`).join('')}</div>` : ''}
         </div>`).join('')}
   `;
 }
@@ -4085,6 +4384,7 @@ function pilihHapusMateri() {
   if(confirm(`Yakin ingin menghapus ${item.tipe === "soal" ? "soal" : "materi"} "${item.judul}"?`)) {
     let filtered = materiList.filter(m => m.id !== id);
     localStorage.setItem("stx_materi", JSON.stringify(filtered));
+    (item.photos || []).forEach(function(pid){ stxImgDel(pid).catch(function(){}); });
     renderMateriDetailByMapel(currentOpenMapel);
     showToast(item.tipe === "soal" ? "Soal berhasil dihapus!" : "Materi berhasil dihapus!");
   }
@@ -4713,6 +5013,7 @@ function openFormTambahMateri() {
   const ta = document.getElementById("inputMateriCatatan"); if(ta) ta.placeholder = sl ? "Tulis soal latihan atau catatan harian..." : "Tulis ringkasan pembelajaran...";
   stxEditing = null;
   ["inputMateriMapel","inputMateriJudul","inputMateriCatatan"].forEach(function(id){ const e = document.getElementById(id); if(e) e.value = ""; });
+  stxPhotosReset();
   showPage('tabFormTambahMateri');
 }
 function pilihEditMateri() {
@@ -4727,24 +5028,33 @@ function pilihEditMateri() {
   document.getElementById("inputMateriCatatan").value = m.catatan || "";
   const b = document.getElementById("btnSimpanMateri"); if(b) b.textContent = "💾 Simpan Perubahan";
   stxEditing = { type: "materi", id: id };
+  stxLoadFormPhotos(m.photos || []);
 }
-function simpanMateriBaru() {
+let stxSavingNote = false;
+async function simpanMateriBaru() {
+  if(stxSavingNote) return;
   let mapel = document.getElementById("inputMateriMapel").value.trim();
   let judul = document.getElementById("inputMateriJudul").value.trim();
   let catatan = document.getElementById("inputMateriCatatan").value.trim();
   if(!mapel || !judul) { showToast("Mapel dan judul wajib diisi!"); return; }
-  let list = JSON.parse(localStorage.getItem("stx_materi")) || [];
-  const editing = stxEditing && stxEditing.type === "materi";
-  if(editing) {
-    const m = list.find(x => x.id === stxEditing.id);
-    if(m) { m.mapel = mapel; m.judul = judul; m.catatan = catatan; }
-  } else {
-    list.push({ id: Date.now(), mapel, judul, catatan, tipe: stxFormTipe === "soal" ? "soal" : "materi" });
-  }
-  localStorage.setItem("stx_materi", JSON.stringify(list));
-  stxEditing = null;
-  switchTab('materi');
-  showToast(editing ? "Perubahan disimpan!" : (stxFormTipe === "soal" ? "Soal harian disimpan!" : "Materi disimpan!"));
+  stxSavingNote = true;
+  try {
+    let photoIds = [];
+    try { photoIds = await stxCommitFormPhotos(); }
+    catch(e) { showToast("Foto gagal disimpan. Coba kurangi jumlah foto."); return; }
+    let list = JSON.parse(localStorage.getItem("stx_materi")) || [];
+    const editing = stxEditing && stxEditing.type === "materi";
+    if(editing) {
+      const m = list.find(x => x.id === stxEditing.id);
+      if(m) { m.mapel = mapel; m.judul = judul; m.catatan = catatan; m.photos = photoIds; }
+    } else {
+      list.push({ id: Date.now(), mapel, judul, catatan, photos: photoIds, tipe: stxFormTipe === "soal" ? "soal" : "materi" });
+    }
+    localStorage.setItem("stx_materi", JSON.stringify(list));
+    stxEditing = null;
+    switchTab('materi');
+    showToast(editing ? "Perubahan disimpan!" : (stxFormTipe === "soal" ? "Soal harian disimpan!" : "Materi disimpan!"));
+  } finally { stxSavingNote = false; }
 }
 function openFormTambahTugas() {
   stxEditing = null;
@@ -4950,22 +5260,56 @@ function getSavingData(){
 }
 function saveSavingData(d){ localStorage.setItem(STX_SAVING_KEY,JSON.stringify(d)); }
 function formatSavingRp(n){ return 'Rp'+Math.max(0,Math.round(Number(n)||0)).toLocaleString('id-ID'); }
+let swShowAll = false;
+function swOpenSheet(name){
+  const map = { tabung:'swSheetTabung', tarik:'swSheetTarik', target:'swSheetTarget' };
+  swCloseSheets();
+  const el = document.getElementById(map[name]); if(!el) return;
+  document.getElementById('swScrim').classList.add('open');
+  el.classList.add('open');
+}
+function swCloseSheets(){
+  document.querySelectorAll('.sw-sheet.open').forEach(function(e){ e.classList.remove('open'); });
+  const sc = document.getElementById('swScrim'); if(sc) sc.classList.remove('open');
+  try { if(document.activeElement && document.activeElement.blur) document.activeElement.blur(); } catch(e) {}
+}
+function swToggleAll(){ swShowAll = !swShowAll; renderSavingPage(); }
+function swTxRow(t){
+  const isW = t.type === 'withdraw';
+  const dt = new Date(t.date);
+  const when = isNaN(dt) ? '' : dt.toLocaleDateString('id-ID',{day:'2-digit',month:'short',year:'numeric'});
+  return `<div class="sw-tx"><div class="sw-tx-ico ${isW?'out':'in'}">${isW?'↗':'↙'}</div><div class="sw-tx-main"><div class="sw-tx-title">${escapeSavingText(t.note||(isW?'Penarikan':'Tabungan'))}</div><div class="sw-tx-date">${when}</div></div><div class="sw-tx-amt ${isW?'out':'in'}">${isW?'−':'+'}${formatSavingRp(t.amount)}</div></div>`;
+}
 function renderSavingPage(){
+  swCloseSheets();
   const d=getSavingData();
   const bal=document.getElementById('savingBalance'); if(!bal)return;
   bal.textContent=formatSavingRp(d.balance);
-  document.getElementById('savingTargetText').textContent=d.targetAmount>0?`${d.targetName||'Target'} • ${formatSavingRp(d.targetAmount)} • Kurang ${formatSavingRp(Math.max(0,d.targetAmount-d.balance))}`:'Belum ada target tabungan';
+  document.getElementById('savingTargetText').textContent=d.targetAmount>0?`🎯 ${d.targetName||'Target'} · ${formatSavingRp(d.targetAmount)} · kurang ${formatSavingRp(Math.max(0,d.targetAmount-d.balance))}`:'Belum ada target tabungan. Ketuk "Atur target".';
   const pct=d.targetAmount>0?Math.min(100,(d.balance/d.targetAmount)*100):0;
   document.getElementById('savingProgressFill').style.width=pct+'%';
   document.getElementById('savingProgressText').textContent=d.targetAmount>0?`${pct.toFixed(0)}% dari target`:'0% dari target';
   const now=new Date(), weekStart=new Date(now); weekStart.setDate(now.getDate()-6); weekStart.setHours(0,0,0,0);
-  const weekTotal=d.transactions.filter(t=>new Date(t.date)>=weekStart).reduce((a,t)=>a+(t.type==='withdraw'?-Math.abs(Number(t.amount)||0):Math.abs(Number(t.amount)||0)),0);
-  document.getElementById('savingWeekTotal').textContent=formatSavingRp(weekTotal);
+  const sgn=t=>(t.type==='withdraw'?-Math.abs(Number(t.amount)||0):Math.abs(Number(t.amount)||0));
+  document.getElementById('savingWeekTotal').textContent=(function(v){return (v<0?'−':'')+formatSavingRp(Math.abs(v));})(d.transactions.filter(t=>new Date(t.date)>=weekStart).reduce((a,t)=>a+sgn(t),0));
   const uniqueDays=new Set(d.transactions.map(t=>String(t.date).slice(0,10))); document.getElementById('savingDaysCount').textContent=uniqueDays.size+' hari';
+  const monthStart=new Date(now.getFullYear(),now.getMonth(),1);
+  const mTx=d.transactions.filter(t=>new Date(t.date)>=monthStart);
+  const inEl=document.getElementById('swMonthIn'), outEl=document.getElementById('swMonthOut');
+  if(inEl) inEl.textContent=formatSavingRp(mTx.filter(t=>t.type!=='withdraw').reduce((a,t)=>a+Math.abs(Number(t.amount)||0),0));
+  if(outEl) outEl.textContent=formatSavingRp(mTx.filter(t=>t.type==='withdraw').reduce((a,t)=>a+Math.abs(Number(t.amount)||0),0));
   const name=document.getElementById('savingTargetName'),amount=document.getElementById('savingTargetAmount'); if(name&&document.activeElement!==name)name.value=d.targetName; if(amount&&document.activeElement!==amount)amount.value=d.targetAmount||'';
   const h=document.getElementById('savingHistory');
-  if(!d.transactions.length){h.innerHTML='<div class="stx-saving-empty">Belum ada riwayat. Sisa uang jajanmu bisa mulai ditabung di sini. 💪</div>';return;}
-  h.innerHTML=d.transactions.slice().reverse().map(t=>{const isW=t.type==='withdraw';return `<div class="stx-saving-history-item"><div><div class="stx-saving-history-date">${new Date(t.date).toLocaleDateString('id-ID',{day:'2-digit',month:'short',year:'numeric'})}</div><div class="stx-saving-history-note">${escapeSavingText(t.note||(isW?'Penarikan':'Tabungan'))}</div></div><div class="stx-saving-history-amount ${isW?'withdraw':''}">${isW?'−':'+'}${formatSavingRp(t.amount)}</div></div>`;}).join('');
+  const see=document.getElementById('swSeeAll');
+  if(!d.transactions.length){
+    h.innerHTML='<div class="sw-empty"><div style="font-size:34px">🐷</div><b>Belum ada transaksi</b><span>Mulai menabung dari sisa uang jajanmu hari ini.</span></div>';
+    if(see) see.style.display='none';
+    return;
+  }
+  const all=d.transactions.slice().reverse();
+  const rows=swShowAll?all:all.slice(0,5);
+  h.innerHTML=rows.map(swTxRow).join('');
+  if(see){ see.style.display=all.length>5?'inline':'none'; see.textContent=swShowAll?'Tampilkan sedikit':'Lihat semua ('+all.length+')'; }
 }
 
 function switchWalletView(view,btn){
@@ -4987,19 +5331,32 @@ function renderSavingAnalytics(period){
   const d=getSavingData(), now=new Date();
   let start=new Date(now);
   if(period==='month'){start=new Date(now.getFullYear(),now.getMonth(),1);}else{start.setDate(now.getDate()-Number(period)+1);start.setHours(0,0,0,0);}
+  start.setHours(0,0,0,0);
   const tx=d.transactions.filter(t=>new Date(t.date)>=start);
   const masuk=tx.filter(t=>t.type!=='withdraw').reduce((a,t)=>a+Math.abs(Number(t.amount)||0),0);
   const keluar=tx.filter(t=>t.type==='withdraw').reduce((a,t)=>a+Math.abs(Number(t.amount)||0),0);
   const bersih=masuk-keluar;
   const label=period==='month'?now.toLocaleDateString('id-ID',{month:'long',year:'numeric'}):period+' hari terakhir';
+  const days=[]; const cur=new Date(start); const end=new Date(now); end.setHours(0,0,0,0);
+  while(cur<=end){ days.push({key:stxLocalDateKey(cur),dow:cur.getDay(),num:cur.getDate(),in:0,out:0}); cur.setDate(cur.getDate()+1); }
+  const idx={}; days.forEach((x,i)=>idx[x.key]=i);
+  tx.forEach(t=>{ const k=stxLocalDateKey(new Date(t.date)); if(idx[k]!==undefined){ const a=Math.abs(Number(t.amount)||0); if(t.type==='withdraw') days[idx[k]].out+=a; else days[idx[k]].in+=a; } });
+  const max=Math.max(1,...days.map(x=>Math.max(x.in,x.out)));
+  const dn=['M','S','S','R','K','J','S'];
+  const bars=days.map((x,i)=>{
+    const lab=days.length<=8?dn[x.dow]:((i%5===0)?x.num:'');
+    return `<div class="sw-col"><div class="sw-bars"><i class="in" style="height:${Math.round(x.in/max*100)}%"></i><i class="out" style="height:${Math.round(x.out/max*100)}%"></i></div><span>${lab}</span></div>`;
+  }).join('');
   const recent=tx.slice().reverse().slice(0,8);
-  el.innerHTML=`<div style="font-size:9px;color:#8d96a3;margin-bottom:7px">${label}</div>
+  el.innerHTML=`<div class="sw-an-label">${label}</div>
     <div class="stx-analytics-stats">
-      <div class="stx-analytics-stat"><small>MASUK</small><b>${formatSavingRp(masuk)}</b></div>
-      <div class="stx-analytics-stat"><small>KELUAR</small><b>${formatSavingRp(keluar)}</b></div>
-      <div class="stx-analytics-stat"><small>BERSIH</small><b>${formatSavingRp(bersih)}</b></div>
+      <div class="stx-analytics-stat"><small>MASUK</small><b style="color:#4ade80">${formatSavingRp(masuk)}</b></div>
+      <div class="stx-analytics-stat"><small>KELUAR</small><b style="color:#f87171">${formatSavingRp(keluar)}</b></div>
+      <div class="stx-analytics-stat"><small>BERSIH</small><b>${bersih<0?'−':''}${formatSavingRp(Math.abs(bersih))}</b></div>
     </div>
-    <div class="stx-analytics-list">${recent.length?recent.map(t=>`<div class="stx-analytics-row"><span>${escapeSavingText(t.note||(t.type==='withdraw'?'Penarikan':'Tabungan'))}</span><b style="color:${t.type==='withdraw'?'#f87171':'#4ade80'}">${t.type==='withdraw'?'−':'+'}${formatSavingRp(t.amount)}</b></div>`).join(''):'<div class="stx-saving-empty">Belum ada data pada periode ini.</div>'}</div>`;
+    <div class="sw-chart${days.length>14?' dense':''}">${bars}</div>
+    <div class="sw-legend"><span><i class="in"></i>Masuk</span><span><i class="out"></i>Keluar</span></div>
+    <div class="sw-list" style="margin-top:12px">${recent.length?recent.map(swTxRow).join(''):'<div class="sw-empty" style="padding:18px 8px"><span>Belum ada data pada periode ini.</span></div>'}</div>`;
 }
 function formatMateriCatatan(value){
   let text = String(value ?? '').replace(/\r\n?/g, '\n');
@@ -5096,6 +5453,540 @@ async function stxInstallApp() {
   try { await stxDeferredInstall.userChoice; } catch(e) {}
   stxDeferredInstall = null; stxToggleInstallUi(false);
 }
+
+/* ===== FOTO CATATAN (disimpan di IndexedDB, bukan localStorage) ===== */
+const STX_MAX_PHOTOS = 10;
+let stxDbPromise = null;
+function stxDb() {
+  if(stxDbPromise) return stxDbPromise;
+  stxDbPromise = new Promise(function(resolve, reject) {
+    if(!window.indexedDB) { reject(new Error("noidb")); return; }
+    const r = indexedDB.open("stx_media", 1);
+    r.onupgradeneeded = function() { r.result.createObjectStore("images", { keyPath: "id" }); };
+    r.onsuccess = function() { resolve(r.result); };
+    r.onerror = function() { reject(r.error); };
+  });
+  return stxDbPromise;
+}
+function stxImgPut(id, blob) {
+  return stxDb().then(function(db) { return new Promise(function(res, rej) {
+    const tx = db.transaction("images", "readwrite");
+    tx.objectStore("images").put({ id: id, blob: blob, created: Date.now() });
+    tx.oncomplete = function(){ res(); }; tx.onerror = function(){ rej(tx.error); }; tx.onabort = function(){ rej(tx.error); };
+  }); });
+}
+function stxImgGet(id) {
+  return stxDb().then(function(db) { return new Promise(function(res, rej) {
+    const rq = db.transaction("images", "readonly").objectStore("images").get(id);
+    rq.onsuccess = function(){ res(rq.result ? rq.result.blob : null); }; rq.onerror = function(){ rej(rq.error); };
+  }); });
+}
+function stxImgDel(id) {
+  if(stxUrlCache[id]) { try { URL.revokeObjectURL(stxUrlCache[id]); } catch(e) {} delete stxUrlCache[id]; }
+  return stxDb().then(function(db) { return new Promise(function(res, rej) {
+    const tx = db.transaction("images", "readwrite");
+    tx.objectStore("images").delete(id);
+    tx.oncomplete = function(){ res(); }; tx.onerror = function(){ rej(tx.error); };
+  }); });
+}
+const stxUrlCache = {};
+function stxImgUrl(id) {
+  if(stxUrlCache[id]) return Promise.resolve(stxUrlCache[id]);
+  return stxImgGet(id).then(function(blob) {
+    if(!blob) return null;
+    stxUrlCache[id] = URL.createObjectURL(blob);
+    return stxUrlCache[id];
+  }).catch(function(){ return null; });
+}
+function stxNewPhotoId() {
+  let owner = "u"; try { owner = localStorage.getItem("stx_active_session") || "u"; } catch(e) {}
+  return owner + "|" + Date.now().toString(36) + Math.random().toString(36).slice(2, 8);
+}
+function stxResizeToBlob(file, maxSide, quality) {
+  return new Promise(function(resolve, reject) {
+    const url = URL.createObjectURL(file);
+    const img = new Image();
+    img.onerror = function() { URL.revokeObjectURL(url); reject(new Error("img")); };
+    img.onload = function() {
+      const k = Math.min(1, maxSide / Math.max(img.width, img.height));
+      const w = Math.max(1, Math.round(img.width * k)), h = Math.max(1, Math.round(img.height * k));
+      const c = document.createElement("canvas"); c.width = w; c.height = h;
+      const x = c.getContext("2d"); x.fillStyle = "#fff"; x.fillRect(0, 0, w, h); x.drawImage(img, 0, 0, w, h);
+      c.toBlob(function(b) { URL.revokeObjectURL(url); b ? resolve(b) : reject(new Error("blob")); }, "image/jpeg", quality);
+    };
+    img.src = url;
+  });
+}
+
+/* --- isian foto di form --- */
+let stxFormPhotos = [];   // {id, blob?, url, isNew}
+let stxFormRemoved = [];  // id foto lama yang dihapus saat edit
+function stxPhotosReset() {
+  stxFormPhotos.forEach(function(p) { if(p.isNew && p.url) { try { URL.revokeObjectURL(p.url); } catch(e) {} } });
+  stxFormPhotos = []; stxFormRemoved = [];
+  stxRenderFormPhotos();
+}
+function stxRenderFormPhotos() {
+  const grid = document.getElementById("materiPhotoGrid"); if(!grid) return;
+  grid.innerHTML = stxFormPhotos.map(function(p, i) {
+    return '<div class="ph-item"><img src="' + (p.url || "") + '" alt="Foto ' + (i+1) + '"><button type="button" onclick="stxRemoveFormPhoto(' + i + ')" aria-label="Hapus foto">✕</button></div>';
+  }).join("");
+  const c = document.getElementById("phCount"); if(c) c.textContent = stxFormPhotos.length + "/" + STX_MAX_PHOTOS;
+  const b = document.getElementById("btnAddPhoto");
+  if(b) { const full = stxFormPhotos.length >= STX_MAX_PHOTOS; b.disabled = full; b.textContent = full ? "Maksimal " + STX_MAX_PHOTOS + " foto" : "📷 Tambah foto"; }
+}
+async function stxPickPhotos(input) {
+  const files = Array.prototype.slice.call(input.files || []);
+  input.value = "";
+  if(!files.length) return;
+  const room = STX_MAX_PHOTOS - stxFormPhotos.length;
+  if(room <= 0) { showToast("Maksimal " + STX_MAX_PHOTOS + " foto per catatan."); return; }
+  if(files.length > room) showToast("Hanya " + room + " foto pertama yang dipakai (maksimal " + STX_MAX_PHOTOS + ").");
+  let gagal = 0;
+  for(const f of files.slice(0, room)) {
+    if(!f.type || f.type.indexOf("image/") !== 0) { gagal++; continue; }
+    try {
+      const blob = await stxResizeToBlob(f, 1400, 0.82);
+      stxFormPhotos.push({ id: stxNewPhotoId(), blob: blob, url: URL.createObjectURL(blob), isNew: true });
+    } catch(e) { gagal++; }
+  }
+  stxRenderFormPhotos();
+  if(gagal) showToast(gagal + " file tidak bisa dibaca sebagai gambar.");
+  try { if(navigator.storage && navigator.storage.persist) navigator.storage.persist(); } catch(e) {}
+}
+function stxRemoveFormPhoto(i) {
+  const p = stxFormPhotos[i]; if(!p) return;
+  if(p.isNew) { try { URL.revokeObjectURL(p.url); } catch(e) {} } else { stxFormRemoved.push(p.id); }
+  stxFormPhotos.splice(i, 1);
+  stxRenderFormPhotos();
+}
+async function stxLoadFormPhotos(ids) {
+  for(const id of ids) {
+    const url = await stxImgUrl(id);
+    if(url) stxFormPhotos.push({ id: id, url: url, isNew: false });
+  }
+  stxRenderFormPhotos();
+}
+async function stxCommitFormPhotos() {
+  const ids = [];
+  for(const p of stxFormPhotos) { if(p.isNew) await stxImgPut(p.id, p.blob); ids.push(p.id); }
+  for(const id of stxFormRemoved) { try { await stxImgDel(id); } catch(e) {} }
+  stxFormRemoved = [];
+  return ids;
+}
+function stxHydratePhotos(root) {
+  if(!root) return;
+  root.querySelectorAll("img[data-pid]").forEach(function(img) {
+    stxImgUrl(img.getAttribute("data-pid")).then(function(url) { if(url) img.src = url; else img.style.display = "none"; });
+  });
+}
+
+/* --- penampil foto layar penuh (cubit untuk zoom) --- */
+const pv = { urls: [], i: 0, s: 1, x: 0, y: 0 };
+const pvPointers = new Map();
+let pvStartDist = 0, pvStartScale = 1, pvDragStart = null, pvLastTap = 0, pvSwipeX = null;
+function pvApply() { const im = document.getElementById("pvImg"); if(im) im.style.transform = "translate(" + pv.x + "px," + pv.y + "px) scale(" + pv.s + ")"; }
+function pvReset() { pv.s = 1; pv.x = 0; pv.y = 0; pvApply(); }
+function pvShow() {
+  const im = document.getElementById("pvImg"); if(!im || !pv.urls.length) return;
+  im.src = pv.urls[pv.i]; pvReset();
+  document.getElementById("pvCount").textContent = (pv.i + 1) + " / " + pv.urls.length;
+  document.querySelector("#photoViewer .pv-prev").style.display = pv.i > 0 ? "flex" : "none";
+  document.querySelector("#photoViewer .pv-next").style.display = pv.i < pv.urls.length - 1 ? "flex" : "none";
+}
+async function stxOpenPhotos(noteId, index) {
+  const list = JSON.parse(localStorage.getItem("stx_materi")) || [];
+  const note = list.find(function(m) { return m.id === noteId; });
+  if(!note || !note.photos || !note.photos.length) return;
+  const urls = [];
+  for(const id of note.photos) { const u = await stxImgUrl(id); if(u) urls.push(u); }
+  if(!urls.length) { showToast("Foto tidak ditemukan di perangkat ini."); return; }
+  pv.urls = urls; pv.i = Math.min(index || 0, urls.length - 1);
+  document.getElementById("photoViewer").classList.add("open");
+  pvShow();
+}
+function stxClosePhotos() { document.getElementById("photoViewer").classList.remove("open"); pvPointers.clear(); }
+function stxPhotoStep(d) { const n = pv.i + d; if(n < 0 || n >= pv.urls.length) return; pv.i = n; pvShow(); }
+function stxInitViewer() {
+  const stage = document.getElementById("pvStage"); if(!stage) return;
+  stage.addEventListener("pointerdown", function(e) {
+    stage.setPointerCapture(e.pointerId);
+    pvPointers.set(e.pointerId, { x: e.clientX, y: e.clientY });
+    if(pvPointers.size === 2) {
+      const a = Array.from(pvPointers.values());
+      pvStartDist = Math.hypot(a[0].x - a[1].x, a[0].y - a[1].y); pvStartScale = pv.s; pvSwipeX = null;
+    } else if(pvPointers.size === 1) {
+      pvDragStart = { x: e.clientX - pv.x, y: e.clientY - pv.y }; pvSwipeX = e.clientX;
+      const now = Date.now();
+      if(now - pvLastTap < 280) { if(pv.s > 1) pvReset(); else { pv.s = 2.5; pvApply(); } pvSwipeX = null; }
+      pvLastTap = now;
+    }
+  });
+  stage.addEventListener("pointermove", function(e) {
+    if(!pvPointers.has(e.pointerId)) return;
+    pvPointers.set(e.pointerId, { x: e.clientX, y: e.clientY });
+    if(pvPointers.size === 2) {
+      const a = Array.from(pvPointers.values());
+      const d = Math.hypot(a[0].x - a[1].x, a[0].y - a[1].y);
+      pv.s = Math.max(1, Math.min(5, pvStartScale * d / (pvStartDist || 1))); pvApply();
+    } else if(pvPointers.size === 1 && pv.s > 1 && pvDragStart) {
+      pv.x = e.clientX - pvDragStart.x; pv.y = e.clientY - pvDragStart.y; pvApply();
+    }
+  });
+  function end(e) {
+    pvPointers.delete(e.pointerId);
+    if(pv.s <= 1.02) { pvReset(); if(pvSwipeX !== null && pvPointers.size === 0) { const dx = e.clientX - pvSwipeX; if(Math.abs(dx) > 60) stxPhotoStep(dx < 0 ? 1 : -1); } }
+    pvSwipeX = null;
+  }
+  stage.addEventListener("pointerup", end); stage.addEventListener("pointercancel", end);
+  document.addEventListener("keydown", function(e) { if(!document.getElementById("photoViewer").classList.contains("open")) return; if(e.key === "Escape") stxClosePhotos(); if(e.key === "ArrowRight") stxPhotoStep(1); if(e.key === "ArrowLeft") stxPhotoStep(-1); });
+}
+if(document.readyState === "loading") document.addEventListener("DOMContentLoaded", stxInitViewer); else stxInitViewer();
 </script>
+
+
+<!-- ===== S.WALLET: LEMBAR AKSI ===== -->
+<div id="swScrim" onclick="swCloseSheets()"></div>
+<div class="sw-sheet" id="swSheetTabung" role="dialog" aria-label="Tambah tabungan">
+  <div class="sw-grab"></div>
+  <div class="sw-sheet-head"><div><small>KEUANGAN HARI INI</small><b>＋ Tambah Tabungan</b></div><button type="button" onclick="swCloseSheets()" aria-label="Tutup">✕</button></div>
+  <input class="stx-saving-input" id="savingAllowance" type="number" min="0" inputmode="numeric" placeholder="Uang jajan hari ini (Rp)" oninput="calculateSavingRemainder()">
+  <input class="stx-saving-input" id="savingExpense" type="number" min="0" inputmode="numeric" placeholder="Total pengeluaran (Rp)" oninput="calculateSavingRemainder()">
+  <div class="sw-remainder">Sisa uang hari ini <b id="savingRemainder">Rp0</b></div>
+  <input class="stx-saving-input" id="savingDeposit" type="number" min="0" inputmode="numeric" placeholder="Nominal yang mau ditabung (Rp)">
+  <input class="stx-saving-input" id="savingNote" type="text" maxlength="60" placeholder="Catatan (opsional), contoh: Sisa jajan">
+  <button type="button" class="sw-submit" onclick="addSavingTransaction()">＋ Tabung Sekarang</button>
+</div>
+<div class="sw-sheet" id="swSheetTarik" role="dialog" aria-label="Tarik uang">
+  <div class="sw-grab"></div>
+  <div class="sw-sheet-head"><div><small>SALDO STUDENT WALLET</small><b>↗ Tarik Uang</b></div><button type="button" onclick="swCloseSheets()" aria-label="Tutup">✕</button></div>
+  <div class="sw-sheet-note">Saldo langsung berkurang sebesar nominal yang kamu tarik.</div>
+  <input class="stx-saving-input" id="savingWithdrawAmount" type="number" min="1" inputmode="numeric" placeholder="Nominal yang ingin ditarik (Rp)">
+  <input class="stx-saving-input" id="savingWithdrawNote" type="text" maxlength="60" placeholder="Catatan (opsional), contoh: Beli alat tulis">
+  <button type="button" class="sw-submit sw-submit-red" onclick="withdrawSavingTransaction()">↗ Tarik Uang</button>
+</div>
+<div class="sw-sheet" id="swSheetTarget" role="dialog" aria-label="Target tabungan">
+  <div class="sw-grab"></div>
+  <div class="sw-sheet-head"><div><small>IMPIANMU</small><b>🎯 Target Tabungan</b></div><button type="button" onclick="swCloseSheets()" aria-label="Tutup">✕</button></div>
+  <input class="stx-saving-input" id="savingTargetName" type="text" placeholder="Contoh: Laptop">
+  <input class="stx-saving-input" id="savingTargetAmount" type="number" min="0" inputmode="numeric" placeholder="Target uang (Rp)">
+  <button type="button" class="sw-submit" onclick="saveSavingTarget()">💾 Simpan Target</button>
+</div>
+
+<!-- ===== PENAMPIL FOTO CATATAN ===== -->
+<div id="photoViewer" role="dialog" aria-label="Foto catatan">
+  <div class="pv-top"><span id="pvCount"></span><button type="button" onclick="stxClosePhotos()" aria-label="Tutup">✕</button></div>
+  <div id="pvStage"><img id="pvImg" alt="Foto catatan" draggable="false"></div>
+  <button type="button" class="pv-nav pv-prev" onclick="stxPhotoStep(-1)" aria-label="Sebelumnya">‹</button>
+  <button type="button" class="pv-nav pv-next" onclick="stxPhotoStep(1)" aria-label="Berikutnya">›</button>
+  <div class="pv-hint">Cubit untuk zoom • ketuk dua kali untuk memperbesar</div>
+</div>
+
+<script>
+/* =========================================================
+   STX LOCAL STORAGE BRIDGE + BACKUP
+   - Menyimpan salinan lokal semua kunci Local Storage ke IndexedDB.
+   - Local Storage tetap dipertahankan sebagai cache kompatibilitas
+     agar kode STX lama tidak perlu ditulis ulang sekaligus.
+   - Cadangan mencakup Local Storage dan foto catatan di stx_media.
+   - Tidak ada permintaan jaringan / pengiriman data ke cloud.
+   ========================================================= */
+(function(){
+  'use strict';
+  const DB_NAME='stx_local_database';
+  const DB_VERSION=1;
+  const STORE='kv';
+  const personalKeys=new Set([
+    'stx_daily_login','stx_widget_x','stx_widget_y','stx_widget_name',
+    'stx_jadwal','stx_materi','stx_custom_webs','stx_deleted_notifications',
+    'stx_tugas','stx_agenda','stx_calc_history','stx_mbg',
+    'stx_streak_fresh_start_2026','stx_streak_days','stx_streak_version',
+    'stx_tabungan_data','stx_motivation_cover_v1','stx_activity_notifications',
+    'stx_guru_rpl','stx_struktur_kelas','stx_jadwal_piket','stx_jadwal_mbg'
+  ]);
+  const originalGet=Storage.prototype.getItem;
+  const originalSet=Storage.prototype.setItem;
+  const originalRemove=Storage.prototype.removeItem;
+  const originalClear=Storage.prototype.clear;
+  let dbPromise=null, syncTimer=null, isRestoring=false;
+
+  function activeEmail(){
+    try{return originalGet.call(localStorage,'stx_active_session')||'';}catch(e){return '';}
+  }
+  function actualScopedKey(key){
+    const k=String(key), email=activeEmail();
+    if(email && (personalKeys.has(k)||k.indexOf('stx_notif_read_')===0)){
+      let prefix='__stx_user__'+encodeURIComponent(email)+'__';
+      try{
+        const raw=originalGet.call(localStorage,'stx_database_accounts');
+        const accounts=raw?JSON.parse(raw):{},account=accounts[email]||{};
+        if(account.stxMultiLevelStorage===true)prefix+='level__'+String(account.jenjang||'SMK').toUpperCase()+'__';
+      }catch(e){}
+      return prefix+k;
+    }
+    return k;
+  }
+  function openDb(){
+    if(dbPromise)return dbPromise;
+    dbPromise=new Promise(function(resolve,reject){
+      if(!window.indexedDB){reject(new Error('Browser ini tidak mendukung IndexedDB.'));return;}
+      const req=indexedDB.open(DB_NAME,DB_VERSION);
+      req.onupgradeneeded=function(){if(!req.result.objectStoreNames.contains(STORE))req.result.createObjectStore(STORE,{keyPath:'key'});};
+      req.onsuccess=function(){resolve(req.result);};
+      req.onerror=function(){reject(req.error||new Error('Database lokal gagal dibuka.'));};
+    });
+    return dbPromise;
+  }
+  function transactionDone(tx){
+    return new Promise(function(resolve,reject){
+      tx.oncomplete=function(){resolve();};
+      tx.onerror=function(){reject(tx.error||new Error('Transaksi database gagal.'));};
+      tx.onabort=function(){reject(tx.error||new Error('Transaksi database dibatalkan.'));};
+    });
+  }
+  function putRecord(key,value){
+    return openDb().then(function(db){
+      const tx=db.transaction(STORE,'readwrite');
+      tx.objectStore(STORE).put({key:String(key),value:String(value),updatedAt:Date.now()});
+      return transactionDone(tx);
+    });
+  }
+  function deleteRecord(key){
+    return openDb().then(function(db){
+      const tx=db.transaction(STORE,'readwrite');
+      tx.objectStore(STORE).delete(String(key));
+      return transactionDone(tx);
+    });
+  }
+  function allRecords(){
+    return openDb().then(function(db){
+      return new Promise(function(resolve,reject){
+        const req=db.transaction(STORE,'readonly').objectStore(STORE).getAll();
+        req.onsuccess=function(){resolve(req.result||[]);};
+        req.onerror=function(){reject(req.error);};
+      });
+    });
+  }
+  function currentSnapshot(){
+    const out={};
+    for(let i=0;i<localStorage.length;i++){
+      const k=localStorage.key(i);
+      if(!k)continue;
+      // Hindari membaca kunci personal legacy melalui wrapper akun karena
+      // wrapper dapat mengembalikan nilai akun aktif, bukan nilai mentah kunci itu.
+      if(personalKeys.has(k)||k.indexOf('stx_notif_read_')===0)continue;
+      try{
+        const v=originalGet.call(localStorage,k);
+        if(v!==null)out[k]=v;
+      }catch(e){}
+    }
+    return out;
+  }
+  function syncAllToDb(){
+    if(isRestoring)return Promise.resolve();
+    return openDb().then(function(db){
+      const snap=currentSnapshot();
+      const tx=db.transaction(STORE,'readwrite'), store=tx.objectStore(STORE);
+      Object.keys(snap).forEach(function(k){store.put({key:k,value:String(snap[k]),updatedAt:Date.now()});});
+      return transactionDone(tx);
+    });
+  }
+  function scheduleSync(){
+    if(isRestoring)return;
+    clearTimeout(syncTimer);
+    syncTimer=setTimeout(function(){
+      syncAllToDb().catch(function(e){setStatus('Penyimpanan tambahan belum tersinkron: '+(e.message||'kesalahan database'));});
+    },250);
+  }
+  function setStatus(message){
+    const el=document.getElementById('stxStorageStatus');
+    if(el)el.textContent=message;
+  }
+  function bytesLabel(n){
+    if(n<1024)return n+' B';
+    if(n<1024*1024)return (n/1024).toFixed(1)+' KB';
+    return (n/(1024*1024)).toFixed(2)+' MB';
+  }
+  function initializeLocalMirror(){
+    return allRecords().then(function(records){
+      const keys=new Set();
+      for(let i=0;i<localStorage.length;i++){const k=localStorage.key(i);if(k)keys.add(k);}
+      const missing=records.filter(function(r){return r&&typeof r.key==='string'&&!keys.has(r.key);});
+      if(!missing.length)return syncAllToDb().then(function(){return 0;});
+      isRestoring=true;
+      missing.forEach(function(r){
+        try{
+          // Restore raw scoped account keys only. Unscoped legacy personal keys
+          // are left to STX's existing account migration logic.
+          if(r.key.indexOf('__stx_user__')===0 || !Array.from(personalKeys).includes(r.key) && r.key.indexOf('stx_notif_read_')!==0){
+            originalSet.call(localStorage,r.key,String(r.value));
+          }
+        }catch(e){}
+      });
+      isRestoring=false;
+      return syncAllToDb().then(function(){return missing.length;});
+    }).catch(function(e){
+      setStatus('Local Storage aktif; database tambahan tidak tersedia. '+(e.message||''));
+      return -1;
+    });
+  }
+
+  // Bridge changes from the existing STX code to a local IndexedDB mirror.
+  Storage.prototype.setItem=function(key,value){
+    const result=originalSet.call(this,key,value);
+    if(this===localStorage)scheduleSync();
+    return result;
+  };
+  Storage.prototype.removeItem=function(key){
+    const result=originalRemove.call(this,key);
+    if(this===localStorage){
+      const actual=actualScopedKey(key);
+      deleteRecord(actual).catch(function(){});
+      if(actual!==String(key))deleteRecord(String(key)).catch(function(){});
+      scheduleSync();
+    }
+    return result;
+  };
+  Storage.prototype.clear=function(){
+    const result=originalClear.call(this);
+    if(this===localStorage){
+      openDb().then(function(db){const tx=db.transaction(STORE,'readwrite');tx.objectStore(STORE).clear();return transactionDone(tx);}).catch(function(){});
+    }
+    return result;
+  };
+
+  function blobToDataUrl(blob){
+    return new Promise(function(resolve,reject){
+      const reader=new FileReader();
+      reader.onload=function(){resolve(reader.result);};
+      reader.onerror=function(){reject(reader.error||new Error('Foto tidak dapat dibaca.'));};
+      reader.readAsDataURL(blob);
+    });
+  }
+  function dataUrlToBlob(dataUrl){
+    const parts=String(dataUrl).split(',');
+    const match=parts[0].match(/data:([^;]+);base64/);
+    if(!match)throw new Error('Format gambar cadangan tidak valid.');
+    const binary=atob(parts[1]), bytes=new Uint8Array(binary.length);
+    for(let i=0;i<binary.length;i++)bytes[i]=binary.charCodeAt(i);
+    return new Blob([bytes],{type:match[1]});
+  }
+  function getMediaBackup(){
+    if(typeof stxDb!=='function')return Promise.resolve([]);
+    return stxDb().then(function(db){
+      return new Promise(function(resolve,reject){
+        if(!db.objectStoreNames.contains('images')){resolve([]);return;}
+        const req=db.transaction('images','readonly').objectStore('images').getAll();
+        req.onsuccess=function(){
+          Promise.all((req.result||[]).map(function(item){
+            return blobToDataUrl(item.blob).then(function(data){return {id:item.id,created:item.created||Date.now(),dataUrl:data};});
+          })).then(resolve,reject);
+        };
+        req.onerror=function(){reject(req.error);};
+      });
+    }).catch(function(){return [];});
+  }
+  function saveMediaBackup(images){
+    if(!Array.isArray(images)||!images.length||typeof stxDb!=='function')return Promise.resolve();
+    return Promise.all(images.map(function(item){
+      if(!item||!item.id||!item.dataUrl)return Promise.resolve();
+      return stxImgPut(item.id,dataUrlToBlob(item.dataUrl));
+    }));
+  }
+  window.stxExportBackup=function(){
+    const btns=document.querySelectorAll('.stx-data-btn');
+    btns.forEach(function(b){b.disabled=true;});
+    setStatus('Menyiapkan cadangan lokal…');
+    Promise.all([syncAllToDb(),getMediaBackup()]).then(function(results){
+      const payload={
+        app:'StudyTrack X',
+        format:'STX_LOCAL_BACKUP',
+        version:1,
+        createdAt:new Date().toISOString(),
+        storage:'local-device-only',
+        localStorage:currentSnapshot(),
+        notePhotos:results[1]
+      };
+      const blob=new Blob([JSON.stringify(payload)],{type:'application/json'});
+      const url=URL.createObjectURL(blob), a=document.createElement('a');
+      const date=new Date().toISOString().slice(0,10);
+      a.href=url;a.download='STX-Cadangan-'+date+'.json';
+      document.body.appendChild(a);a.click();a.remove();
+      setTimeout(function(){URL.revokeObjectURL(url);},1500);
+      setStatus('Cadangan siap: '+Object.keys(payload.localStorage).length+' kunci data + '+payload.notePhotos.length+' foto catatan. Simpan berkas ini di tempat pribadi.');
+      if(typeof showToast==='function')showToast('Cadangan STX berhasil dibuat.');
+    }).catch(function(e){
+      setStatus('Gagal membuat cadangan: '+(e.message||'kesalahan tidak diketahui'));
+      if(typeof showToast==='function')showToast('Cadangan gagal dibuat.');
+    }).finally(function(){btns.forEach(function(b){b.disabled=false;});});
+  };
+  window.stxImportBackup=function(event){
+    const input=event&&event.target, file=input&&input.files&&input.files[0];
+    if(!file)return;
+    if(file.size>80*1024*1024){alert('Berkas cadangan terlalu besar (maksimal 80 MB).');input.value='';return;}
+    const reader=new FileReader();
+    reader.onload=function(){
+      let data;
+      try{data=JSON.parse(reader.result);}catch(e){alert('Berkas bukan JSON yang valid.');input.value='';return;}
+      if(!data||data.format!=='STX_LOCAL_BACKUP'||!data.localStorage||typeof data.localStorage!=='object'){
+        alert('Format bukan cadangan STX yang didukung.');input.value='';return;
+      }
+      const ok=confirm('Pulihkan cadangan tanggal '+(data.createdAt||'tidak diketahui')+'? Data dengan kunci yang sama akan diganti oleh isi cadangan. Tindakan ini tidak dapat dibatalkan. Buat cadangan kondisi sekarang terlebih dahulu jika diperlukan.');
+      if(!ok){input.value='';return;}
+      try{
+        Object.keys(data.localStorage).forEach(function(k){
+          if(typeof data.localStorage[k]==='string')localStorage.setItem(k,data.localStorage[k]);
+        });
+      }catch(e){alert('Sebagian data tidak dapat dipulihkan: '+(e.message||''));input.value='';return;}
+      saveMediaBackup(data.notePhotos||[]).then(function(){
+        return syncAllToDb();
+      }).then(function(){
+        alert('Cadangan berhasil dipulihkan. STX akan dimuat ulang agar data tampil dengan benar.');
+        try{sessionStorage.setItem('stx_restore_reload','1');}catch(e){}
+        location.reload();
+      }).catch(function(e){alert('Data teks dipulihkan, tetapi foto mungkin belum seluruhnya: '+(e.message||''));});
+      input.value='';
+    };
+    reader.onerror=function(){alert('Berkas cadangan tidak dapat dibaca.');input.value='';};
+    reader.readAsText(file);
+  };
+
+  function updateStatus(){
+    Promise.all([allRecords(),getMediaBackup()]).then(function(res){
+      const snap=currentSnapshot();
+      setStatus('Penyimpanan lokal aktif • '+Object.keys(snap).length+' kunci • '+bytesLabel(JSON.stringify(snap).length)+' data teks • '+res[1].length+' foto catatan. Cadangan disimpan sebagai berkas di HP.');
+    }).catch(function(){setStatus('Data tetap berada di Local Storage. Database tambahan belum tersedia.');});
+  }
+
+  initializeLocalMirror().then(function(restored){
+    updateStatus();
+    if(restored>0){
+      let reload=false;
+      try{reload=sessionStorage.getItem('stx_local_mirror_reloaded')!=='1';if(reload)sessionStorage.setItem('stx_local_mirror_reloaded','1');else sessionStorage.removeItem('stx_local_mirror_reloaded');}catch(e){}
+      if(reload){location.reload();return;}
+    }else{
+      try{sessionStorage.removeItem('stx_local_mirror_reloaded');}catch(e){}
+    }
+  });
+  window.addEventListener('beforeunload',function(){try{syncAllToDb();}catch(e){}});
+})();
+</script>
+
+<script>
+window.addEventListener("DOMContentLoaded",function(){
+  try{
+    const active=localStorage.getItem("stx_active_session");
+    const accounts=JSON.parse(localStorage.getItem("stx_database_accounts")||"{}");
+    if(active&&accounts[active])stxApplyLevel(accounts[active].jenjang||"SMK");
+  }catch(e){}
+});
+</script>
+
+
+
+
+
+
+
 </body>
 </html>
